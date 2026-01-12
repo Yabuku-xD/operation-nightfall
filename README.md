@@ -16,6 +16,8 @@ This project does not just predict *if* a machine will fail. It builds a financi
 
 It bridges the gap between **Data Science metrics** (Accuracy, Recall) and **Business metrics** (ROI, Net Savings).
 
+![Predictive Maintenance Dashboard](dashboard.png)
+
 ## 3. Tech Stack & Architecture
 This project simulates a full industrial data pipeline:
 
