@@ -1,7 +1,7 @@
 # Operation Nightfall: Industrial Predictive Maintenance
 
 ## 1. The Real-World Problem
-In modern manufacturing (e.g., automotive assembly, semiconductor fabs, or chemical plants), **unplanned downtime** is the single biggest destroyer of profit. 
+In modern manufacturing (e.g., automotive assembly, semiconductor fabs, or chemical plants), **unplanned downtime** is the single biggest destroyer of profit. Machines (pumps, turbines, CNCs) emit subtle sound changes weeks before catastrophic failure. Visual inspection misses this.
 
 - **The Scenario**: A Critical Cooling Fan ($200 part) fails unexpectedly on a Friday afternoon.
 - **The Consequence**: The entire production line halts. 
