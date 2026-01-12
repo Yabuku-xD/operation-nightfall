@@ -1,9 +1,7 @@
 # Operation Nightfall: Industrial Predictive Maintenance
-
-## 1. The Real-World Problem
 In modern manufacturing (e.g., automotive assembly, semiconductor fabs, or chemical plants), **unplanned downtime** is the single biggest destroyer of profit. Machines (pumps, turbines, CNCs) emit subtle sound changes weeks before catastrophic failure. Visual inspection misses this.
 
-- **The Scenario**: A Critical Cooling Fan ($200 part) fails unexpectedly on a Friday afternoon.
+- Let's say a critical cooling fan ($200 part) fails unexpectedly on a Friday afternoon.
 - **The Consequence**: The entire production line halts. 
     - 50 workers are paid to stand idle.
     - Rush shipping for a replacement part costs $5,000.
@@ -11,14 +9,14 @@ In modern manufacturing (e.g., automotive assembly, semiconductor fabs, or chemi
 - **The Old Solution (Run-to-Failure)**: Wait for things to break, then fix them. **Cost: High.**
 - **The "Safe" Solution (Preventive Maintenance)**: Replace *every* fan every 2 months, even if they are fine. **Cost: Medium (Wasteful).**
 
-## 2. The Solution: Predictive Financial Modeling
+## The Solution: Predictive Financial Modeling
 This project does not just predict *if* a machine will fail. It builds a financial decision engine that tells stakeholders: **"Here is exactly how much money we save by fixing specific machines today."**
 
 It bridges the gap between **Data Science metrics** (Accuracy, Recall) and **Business metrics** (ROI, Net Savings).
 
 ![Predictive Maintenance Dashboard](dashboard.png)
 
-## 3. Tech Stack & Architecture
+## Tech Stack & Architecture
 This project simulates a full industrial data pipeline:
 
 ### **Step 1: Data Engineering (SQL/SQLite)**
@@ -39,7 +37,7 @@ This project simulates a full industrial data pipeline:
 *   **Output**: `tableau_predictions.csv`
 *   **Action**: A dashboard that visualizes the **Net Savings** and **ROI** of the predictive strategy compared to the run-to-failure baseline.
 
-## 4. How to Run
+## How to Run
 
 1. **Install Dependencies**:
    ```bash
@@ -62,7 +60,7 @@ This project simulates a full industrial data pipeline:
    - Open Tableau and connect to the generated `tableau_predictions.csv`.
    - Use the `Strategy_Cost` and `Unplanned_Failure_Cost` columns to build your ROI dashboard.
 
-## 5. Key Results (Example)
+## Key Results (Example)
 - **Status Quo Cost**: $3.4M (Money lost to failures)
 - **Predictive Strategy Cost**: $1.3M (Money spent on inspections/maintenance)
 - **Net Savings**: **$2.1M**
